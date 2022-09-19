@@ -1,0 +1,74 @@
+.page {
+  background-color: "grey";
+  width: 25%;
+  margin: 8% 0% 0% 28%;
+  margin-left: 18.5%;
+  color: white;
+  /* background-color: darkgoldenrod;  */
+}
+.input1 {
+  width: 20rem;
+  height: 2rem;
+  display: flexbox;
+  /* background-color: darkgray; */
+  /* margin-right: 10rem; */
+  margin: 11% 0% 0% 1%;
+  margin-left: 1%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 50px 20px 50px grey;
+}
+.input2 {
+  width: 20rem;
+  height: 2rem;
+  margin: 2% 0% 0% 1%;
+  margin-left: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 20px 20px 50px grey;
+}
+.btn {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button:nth-child(1) {
+  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px grey;
+}
+.btn button:nth-child(2) {
+  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px grey;
+}
+
+button:hover {
+  background-color: blue;
+}
+* .container {
+  position: relative;
+  width: 50%;
+  margin-right: 50rem;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

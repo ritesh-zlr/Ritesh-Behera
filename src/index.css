@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Color themes for the application */
+:root {
+  --clr-theme-blue: #2dbde4;
+  --clr-theme-purple: #8317db;
+
+  --clr-text-dark: #25478a;
+
+  --clr-error: red;
+  --clr-white: white;
+
+  --clr-theme-blue-50: rgba(45, 189, 228, 0.5);
+  --clr-theme-purple-50: rgba(131, 23, 219, 0.5);
+  --clr-white-20: rgba(255, 255, 255, 0.2);
+  --clr-white-80: rgba(255, 255, 255, 0.8);
+}
+
+/* Generic Classes to be used throughout the application. */
+.flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
